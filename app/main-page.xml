@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar title="Dynamic Http ES Modules" />
+
+    <StackLayout class="p-8">
+        <Button text="Import debounce from lodash" tap="{{ importDebounceFromLodash }}" class="bg-blue-500 rounded-full p-3 text-white bold border-2 border-blue-800" />
+        <GridLayout rows="100" columns="*" class="p-2">
+            <Label text="{{ message1 }}" class="text-center text-gray-700 text-sm leading-[4] mt-4" textWrap="true" />
+        </GridLayout>
+
+        <Button text="Import yaml parser" tap="{{ importFromYaml }}" class="bg-blue-500 rounded-full p-3 text-white bold border-2 border-blue-800" />
+        <Label text="{{ message2 }}" class="text-left ml-4 text-gray-700 text-sm leading-[4] mt-4" textWrap="true" />
+    </StackLayout>
+</Page>
