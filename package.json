@@ -12,7 +12,7 @@
     "@nativescript/ios": "9.0.2",
     "@nativescript/tailwind": "^2.1.0",
     "@nativescript/types": "~9.0.0",
-    "@nativescript/vite": "^1.0.5",
+    "@nativescript/vite": "^1.0.6-rc.1",
     "@types/lodash": "^4.17.21",
     "@types/yaml": "^1.9.6",
     "concurrently": "^9.0.0",
